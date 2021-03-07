@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/checkll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    tools:context=".check">
+
+    <Button
+        android:id="@+id/btagree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="688dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="110dp"
+        android:background="#FFFFFF"
+        android:shadowColor="#000000"
+        android:text="@string/agree"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btcancel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:background="#FFFFFF"
+        android:shadowColor="#000000"
+        android:text="@string/cancel"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btagree"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btagree" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btagree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/cpoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/make_sure_you_have_a_active_internet_connection"
+            android:textColor="#33074C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cpoint2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/all_the_background_services_would_be_temporarily_blocked_while_using_the_app_except_for_those_required_to_run_the_app"
+            android:textColor="#33074C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cpoint3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/make_sure_you_have_connected_with_the_external_finger_print_scanner"
+            android:textColor="#33074C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cpoint5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/default_phone_gestures_would_no_tbe_available_use_manual_back_and_exit_button_given_in_the_app"
+            android:textColor="#33074C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cpoint6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/minimisation_of_the_app_is_blocked"
+            android:textColor="#33074C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cpoint7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/any_violation_of_the_check_point_in_any_point_of_using_the_app_will_lead_to_immediate_exit_of_the_app"
+            android:textColor="#33074C"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

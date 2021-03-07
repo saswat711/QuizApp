@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">voter</string>
+    <string name="welcome">welcome</string>
+
+    <string name="agree">AGREE</string>
+    <string name="cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="enter_your_roll_no">ENTER YOUR ROLL NO</string>
+    <string name="make_sure_you_have_a_active_internet_connection"><![CDATA[ >  Make sure you have a active internet connection.]]></string>
+    <string name="all_the_background_services_would_be_temporarily_blocked_while_using_the_app_except_for_those_required_to_run_the_app"><![CDATA[ >  All the background services would be temporarily blocked while using the app except for those required to run the app.]]></string>
+    <string name="make_sure_you_have_connected_with_the_external_finger_print_scanner"><![CDATA[ >  Make sure you have connected with the external finger-print scanner.]]></string>
+    <string name="default_phone_gestures_would_no_tbe_available_use_manual_back_and_exit_button_given_in_the_app"><![CDATA[ >  Default phone gestures would no tbe available use manual back and exit button given in the app]]></string>
+
+    <string name="minimisation_of_the_app_is_blocked"><![CDATA[ >  Minimisation of the app is blocked .]]></string>
+    <string name="any_violation_of_the_check_point_in_any_point_of_using_the_app_will_lead_to_immediate_exit_of_the_app"><![CDATA[ >  Any violation of the check point in any point of using the app will lead to immediate exit of the app.]]></string>
+
+
+</resources>

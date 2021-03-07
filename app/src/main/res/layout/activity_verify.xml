@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFDFF"
+    tools:context=".verify">
+
+    <ImageView
+        android:id="@+id/ivwave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="63dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@+id/ivdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/darkwave" />
+
+    <ImageView
+        android:id="@+id/ivdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/tvname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dp" />
+
+    <ImageButton
+        android:id="@+id/btqrscan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/btqrscan"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="@+id/btfpscan"
+        app:layout_constraintTop_toBottomOf="@+id/btfpscan" />
+
+    <ImageButton
+        android:id="@+id/btfpscan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/btfpscan"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvbranch" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="403dp"
+        android:text="@string/textview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvbranch"
+        app:layout_constraintStart_toStartOf="@+id/tvbranch"
+        android:textColor="#33074C"/>
+
+    <TextView
+        android:id="@+id/tvdept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="@string/textview"
+        app:layout_constraintEnd_toEndOf="@+id/tvsem"
+        app:layout_constraintStart_toStartOf="@+id/tvsem"
+        app:layout_constraintTop_toBottomOf="@+id/ivdp"
+        android:textColor="#33074C"/>
+
+    <TextView
+        android:id="@+id/tvbranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="47dp"
+        android:text="@string/textview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvname"
+        android:textColor="#33074C"/>
+
+    <TextView
+        android:id="@+id/tvsem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="63dp"
+        android:text="@string/textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvdept"
+        android:textColor="#33074C"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
