@@ -12,12 +12,12 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class intro extends AppCompatActivity implements View.OnClickListener{
+public class intro extends AppCompatActivity {
 
-ImageButton btadmin,btstart;
-TextView tvwarn;
-private String logtag= intro.class.getSimpleName();
-  private int mcount=0;
+    ImageButton btadmin,btstart;
+    TextView tvwarn;
+    private String logtag= intro.class.getSimpleName();
+    private int mcount=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +31,7 @@ private String logtag= intro.class.getSimpleName();
 
     }
 
-    @Override
-    public void onClick(View v) {
 
-    }
 
     public void getstarted(View view) {
 

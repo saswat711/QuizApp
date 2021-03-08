@@ -1,11 +1,12 @@
 package com.example.voter;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
-public class verify extends AppCompatActivity implements View.OnClickListener{
+import androidx.appcompat.app.AppCompatActivity;
+
+public class verify extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,8 +14,12 @@ public class verify extends AppCompatActivity implements View.OnClickListener{
         setContentView(R.layout.activity_verify);
     }
 
-    @Override
-    public void onClick(View v) {
 
+
+    public void scanfinger(View view) {
+        Toast.makeText(this, "okay", Toast.LENGTH_SHORT).show();
+    }
+
+    public void scanqr(View view) {
     }
 }

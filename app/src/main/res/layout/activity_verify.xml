@@ -33,22 +33,29 @@
         android:id="@+id/btqrscan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/btqrscan"
         android:contentDescription="@string/todo"
-        app:layout_constraintStart_toStartOf="@+id/btfpscan"
-        app:layout_constraintTop_toBottomOf="@+id/btfpscan" />
+        android:onClick="scanqr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvbranch" />
 
     <ImageButton
         android:id="@+id/btfpscan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="67dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/btfpscan"
         android:contentDescription="@string/todo"
+        android:onClick="scanfinger"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvbranch" />
+        app:layout_constraintTop_toBottomOf="@+id/btqrscan" />
 
     <TextView
         android:id="@+id/tvname"
@@ -56,10 +63,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="403dp"
         android:text="@string/textview"
+        android:textColor="#33074C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/tvbranch"
-        app:layout_constraintStart_toStartOf="@+id/tvbranch"
-        android:textColor="#33074C"/>
+        app:layout_constraintStart_toStartOf="@+id/tvbranch" />
 
     <TextView
         android:id="@+id/tvdept"
@@ -67,10 +74,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="43dp"
         android:text="@string/textview"
+        android:textColor="#33074C"
         app:layout_constraintEnd_toEndOf="@+id/tvsem"
         app:layout_constraintStart_toStartOf="@+id/tvsem"
-        app:layout_constraintTop_toBottomOf="@+id/ivdp"
-        android:textColor="#33074C"/>
+        app:layout_constraintTop_toBottomOf="@+id/ivdp" />
 
     <TextView
         android:id="@+id/tvbranch"
@@ -79,9 +86,9 @@
         android:layout_marginStart="53dp"
         android:layout_marginTop="47dp"
         android:text="@string/textview"
+        android:textColor="#33074C"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvname"
-        android:textColor="#33074C"/>
+        app:layout_constraintTop_toBottomOf="@+id/tvname" />
 
     <TextView
         android:id="@+id/tvsem"
@@ -90,8 +97,8 @@
         android:layout_marginTop="47dp"
         android:layout_marginEnd="63dp"
         android:text="@string/textview"
+        android:textColor="#33074C"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvdept"
-        android:textColor="#33074C"/>
+        app:layout_constraintTop_toBottomOf="@+id/tvdept" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
