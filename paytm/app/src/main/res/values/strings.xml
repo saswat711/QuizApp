@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="enter_the_amount">Enter the Amount</string>
+    <string name="all_in_one_app">Pay Through Paytm</string>
+    <string name="_1" />
+    <string name="enter_the_txntoken">Enter the TxnToken</string>
+    <string name="enter_the_orderid">Enter the OrderId</string>
+    <string name="processed_to_payment">Proceed to Payment</string>
+    <string name="production">Production</string>
+    <string name="enter_the_mid">Enter the MID</string>
+</resources>
